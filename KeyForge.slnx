@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="KeyForge.App/KeyForge.App.csproj" />
+  <Project Path="KeyForge.SDK/KeyForge.SDK.csproj" />
+</Solution>

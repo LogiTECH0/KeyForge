@@ -1,0 +1,28 @@
+{
+  "Keybinds": [
+    {
+      "Keys": "Pause",
+      "Action": "PlayPause"
+    },
+    {
+      "Keys": "Pause,Right",
+      "Action": "NextTrack"
+    },
+    {
+      "Keys": "Left,Pause",
+      "Action": "PrevTrack"
+    },
+    {
+      "Keys": "Down,Pause",
+      "Action": "VolumeDown"
+    },
+    {
+      "Keys": "Pause,Up",
+      "Action": "VolumeUp"
+    },
+    {
+      "Keys": "Back,Pause",
+      "Action": "Mute"
+    }
+  ]
+}

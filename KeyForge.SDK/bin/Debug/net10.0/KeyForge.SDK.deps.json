@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "KeyForge.SDK/1.0.0": {
+        "runtime": {
+          "KeyForge.SDK.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KeyForge.SDK/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
