@@ -9,7 +9,7 @@ public class HotkeyManager
     private readonly HashSet<string> _currentCombination = new();
     private readonly ActionManager _actionManager;
     private readonly KeyboardHook _keyboardHook;
-    private readonly KeyForgeConfig _config;    
+    private readonly KeyForgeConfig _config;
 
     public HotkeyManager(ActionManager actionManager, KeyboardHook keyboardHook, KeyForgeConfig config)
     {
@@ -33,13 +33,17 @@ public class HotkeyManager
         Console.WriteLine($"UP: {key}");
         if (_pressedKeys.Count == 0 && _currentCombination.Count > 0)
         {
-            string combination = string.Join(",", _currentCombination.OrderBy(s=>s));
+            string combination = string.Join(",", _currentCombination.OrderBy(s => s));
             Console.WriteLine($"Current Combination: {_currentCombination}");
             Console.WriteLine($"Combination: {combination}");
             var hotkey = _config.Keybinds.FirstOrDefault(k => k.Keys == combination);
-            if (hotkey != null)
+            try
             {
                 _actionManager.Execute(hotkey.Action);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"KeyForge action error: {ex.Message}");
             }
             _currentCombination.Clear();
         }

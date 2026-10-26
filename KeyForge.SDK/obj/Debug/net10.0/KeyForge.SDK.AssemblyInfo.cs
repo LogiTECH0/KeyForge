@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KeyForge.SDK")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a76195d044cc7c1ea0b7f8af8df5766c5b73add")]
 [assembly: System.Reflection.AssemblyProductAttribute("KeyForge.SDK")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KeyForge.SDK")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

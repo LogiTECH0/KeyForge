@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
     <ProjectReference Include="..\KeyForge.SDK\KeyForge.SDK.csproj" />
   </ItemGroup>
@@ -17,4 +16,11 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Resource Include="Assets\icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\AsapSharp-VariableFont_wdth,wght.ttf" />
+  </ItemGroup>
 </Project>

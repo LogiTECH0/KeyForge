@@ -20,6 +20,7 @@ public class FunctionRegistry
             );
         }
 
+        _actionManager.ClearActions();
         var files = Directory.GetFiles(
             functionsDirectory,
             "*.cs"

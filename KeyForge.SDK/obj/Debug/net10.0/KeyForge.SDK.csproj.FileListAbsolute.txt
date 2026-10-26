@@ -16,6 +16,7 @@ D:\Programming\KeyForge\KeyForge.SDK\obj\Debug\net10.0\KeyForge.SDK.GeneratedMSB
 D:\Programming\KeyForge\KeyForge.SDK\obj\Debug\net10.0\KeyForge.SDK.AssemblyInfoInputs.cache
 D:\Programming\KeyForge\KeyForge.SDK\obj\Debug\net10.0\KeyForge.SDK.AssemblyInfo.cs
 D:\Programming\KeyForge\KeyForge.SDK\obj\Debug\net10.0\KeyForge.SDK.csproj.CoreCompileInputs.cache
+D:\Programming\KeyForge\KeyForge.SDK\obj\Debug\net10.0\KeyForge.SDK.sourcelink.json
 D:\Programming\KeyForge\KeyForge.SDK\obj\Debug\net10.0\KeyForge.SDK.dll
 D:\Programming\KeyForge\KeyForge.SDK\obj\Debug\net10.0\refint\KeyForge.SDK.dll
 D:\Programming\KeyForge\KeyForge.SDK\obj\Debug\net10.0\KeyForge.SDK.pdb

@@ -26,6 +26,10 @@ public class ActionManager
 
         _actions[name] = action;
     }
+    public void ClearActions()
+    {
+        _actions.Clear();
+    }
 
     public void Execute(string name)
     {

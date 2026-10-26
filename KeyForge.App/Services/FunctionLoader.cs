@@ -22,7 +22,6 @@ public class FunctionLoader
 
         var syntaxTree = CSharpSyntaxTree.ParseText(code);
 
-        // Беремо всі DLL, які потрібні поточному .NET runtime.
         var trustedAssemblies = ((string?)AppContext.GetData(
             "TRUSTED_PLATFORM_ASSEMBLIES"
         ))?.Split(Path.PathSeparator);
@@ -39,7 +38,6 @@ public class FunctionLoader
             .Cast<MetadataReference>()
             .ToList();
 
-        // Додаємо наш SDK.
         references.Add(
             MetadataReference.CreateFromFile(
                 typeof(IKeyForgeAction).Assembly.Location
